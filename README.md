@@ -2,7 +2,7 @@
 
 **Kali NetHunter 简体中文汉化版（2026.3）**
 
-本仓库是 [Kali NetHunter](https://www.kali.org/docs/nethunter/) 的简体中文（汉化）发行版本，已**全部完成汉化校验**。仓库**仅提供 APK 安装包**，不提供源码、构建脚本或刷机镜像。
+本仓库是 [Kali NetHunter](https://www.kali.org/docs/nethunter/) 的简体中文（汉化）发行版本，已**全部完成汉化校验**。仓库提供 **APK 安装包**（见 `apk/` 目录与 Releases），并附带解压后的应用资源目录 `NetHunter_2026.3/` 供查阅。
 
 ---
 
@@ -14,14 +14,11 @@
 
 ## 📦 获取 APK
 
-> 本仓库**仅提供 APK 安装包**。
+> 本仓库提供完整的 **NetHunter 中文版 APK 安装包**。
 
-请在以下位置获取对应设备的安装包：
-
-- **GitHub Releases**（推荐）：前往本仓库的 `Releases` 页面下载对应架构的 APK
-- 或直接查看仓库内的 `apk/` 目录
-
-请根据你的设备架构（如 `arm64` / `armhf`）选择对应的安装包。
+- **GitHub Releases（正式版）**：前往本仓库的 `Releases` 页面下载 `NetHunter_2026.3.apk`
+- **仓库 `apk/` 目录**：`apk/NetHunter_2026.3.apk`
+- 解压后的应用资源（`AndroidManifest.xml`、`classes.dex`、`res/`、`lib/` 等）位于 `NetHunter_2026.3/`，可供查阅与二次构建参考
 
 ## 🔧 安装说明
 
